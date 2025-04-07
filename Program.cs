@@ -1,22 +1,46 @@
-﻿using System.ComponentModel.Design;
-
-namespace CheckTemperature
+﻿namespace calculator
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//purpose of programn to take (value or input) from user;
         {
-            Console.WriteLine("what is temperature outside");
-            double x = Convert.ToDouble(Console.ReadLine());
-            if (x >= 12 && x <= 26)
+            double x;
+            double y;
+            double result;
+            Console.Write("enter first number:");
+            x = Convert.ToDouble(Console.ReadLine());
+            Console.Write("enter second number:");
+            y= Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("choose operator");
+            switch (Console.ReadLine())
             {
-                Console.WriteLine("its warm outside");
+                case "+":
+                    result = x + y;
+                    Console.WriteLine("result is=" + result);
+                    break;
+                case "-":
+                    result = x - y;
+                    Console.WriteLine("result is=" + result);
+                    break;
+                case "*":
+                    result = x * y;
+                    Console.WriteLine("result is=" + result);
+                    break;
+                case "/":
+                    result = x /y;
+                    Console.WriteLine("result is=" + result);
+                    break;
+                default:
+                    Console.WriteLine("invalid statment");
+                    break;
+
+
+
+
             }
-            else if (x >= 50 || x <= -50)
-            {
-                Console.WriteLine("dont go outside");
-            }
-            
+
+
+
         }
     }
 }
