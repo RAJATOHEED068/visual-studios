@@ -1,0 +1,22 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        // Basic user details
+        string name = "toheed";
+        int age = 22;
+        float heightInMeters = 5.006f;
+        bool hasSubscription = true;
+        char gradeAchieved = 'b';
+
+        // Display the collected information
+        Console.WriteLine("=== Profile Summary ===");
+        Console.WriteLine("Full Name: " + name);
+        Console.WriteLine("Age (Years): " + age);
+        Console.WriteLine("Height: " + heightInMeters + " meters");
+        Console.WriteLine("Active Subscription: " + hasSubscription);
+        Console.WriteLine("Current Grade: " + gradeAchieved);
+    }
+}
