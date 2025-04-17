@@ -1,20 +1,38 @@
 using System;
 
-namespace 
+namespace GlobalAndLocalExample
 {
     class Program
     {
-        
+        //  Global Variables (Declared outside methods, accessible throughout the class)
         static int PersonAge = 10;
         static double PersonRollno = 32;
         static string PersonName = "TOHEED";
 
         static void Main(string[] args)
         {
-        
-            Console.WriteLine(PersonAge);
-            Console.WriteLine(PersonRollno);
-            Console.WriteLine(PersonName);
+            // Printing Global Variables
+            Console.WriteLine("===== Global Variables =====");
+            Console.WriteLine("PersonAge: " + PersonAge);
+            Console.WriteLine("PersonRollno: " + PersonRollno);
+            Console.WriteLine("PersonName: " + PersonName);
+
+            // Call method that uses Local Variables
+            StudentInfo();
+        }
+
+        static void StudentInfo()
+        {
+            //  Local Variables (Declared inside method, only accessible here)
+            string studentName = "TOHEED";
+            int studentRollno = 10;
+            double studentId = 30491;
+
+            // Printing Local Variables
+            Console.WriteLine("\n===== Local Variables =====");
+            Console.WriteLine("StudentName: " + studentName);
+            Console.WriteLine("StudentId: " + studentId);
+            Console.WriteLine("StudentRollno: " + studentRollno);
         }
     }
 }
