@@ -20,7 +20,7 @@ class Program
         Console.WriteLine(char.MinValue);
         
     
-        Console.WriteLine("MaxValue (datatype) can handle");
-        Console.WriteLine("MinValue (datatype) can handle");
+       // Console.WriteLine("MaxValue (datatype) can handle");
+        //Console.WriteLine("MinValue (datatype) can handle");
     }
 }
