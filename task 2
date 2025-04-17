@@ -52,10 +52,8 @@ class Program
         // 16. (bool.MinValue) // true/false
         Console.WriteLine("bool Min Value: false");
 
-        // 17. MaxValue (datatype) can handle
+        
         Console.WriteLine("Above are Max values data types can handle.");
-
-        // 18. MinValue (datatype) can handle
         Console.WriteLine("Above are Min values data types can handle.");
     }
 }
