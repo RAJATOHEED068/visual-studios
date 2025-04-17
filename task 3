@@ -1,0 +1,20 @@
+using System;
+
+namespace 
+{
+    class Program
+    {
+        
+        static int PersonAge = 10;
+        static double PersonRollno = 32;
+        static string PersonName = "TOHEED";
+
+        static void Main(string[] args)
+        {
+        
+            Console.WriteLine(PersonAge);
+            Console.WriteLine(PersonRollno);
+            Console.WriteLine(PersonName);
+        }
+    }
+}
