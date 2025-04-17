@@ -4,23 +4,39 @@ class Program
 {
     static void Main()
     {
+        // MaxValue int can handle
         Console.WriteLine(int.MaxValue);
+        // MinValue int can handle
         Console.WriteLine(int.MinValue);
+
+        // MaxValue short can handle
         Console.WriteLine(short.MaxValue);
+        // MinValue short can handle
         Console.WriteLine(short.MinValue);
+
+        // MaxValue long can handle
         Console.WriteLine(long.MaxValue);
+        // MinValue long can handle
         Console.WriteLine(long.MinValue);
+
+        // MaxValue double can handle
         Console.WriteLine(double.MaxValue);
+        // MinValue double can handle
         Console.WriteLine(double.MinValue);
+
+        // MaxValue byte can handle
         Console.WriteLine(byte.MaxValue);
+        // MinValue byte can handle
         Console.WriteLine(byte.MinValue);
+
+        // MaxValue decimal can handle
         Console.WriteLine(decimal.MaxValue);
+        // MinValue decimal can handle
         Console.WriteLine(decimal.MinValue);
+
+        // MaxValue char can handle
         Console.WriteLine(char.MaxValue);
+        // MinValue char can handle
         Console.WriteLine(char.MinValue);
-        
-    
-       // Console.WriteLine("MaxValue (datatype) can handle");
-        //Console.WriteLine("MinValue (datatype) can handle");
     }
 }
