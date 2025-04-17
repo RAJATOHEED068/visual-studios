@@ -12,7 +12,7 @@ namespace GlobalAndLocalExample
         static void Main(string[] args)
         {
             // Printing Global Variables
-            Console.WriteLine("===== Global Variables =====");
+            Console.WriteLine(" Global Variables");
             Console.WriteLine("PersonAge: " + PersonAge);
             Console.WriteLine("PersonRollno: " + PersonRollno);
             Console.WriteLine("PersonName: " + PersonName);
@@ -29,7 +29,7 @@ namespace GlobalAndLocalExample
             double studentId = 30491;
 
             // Printing Local Variables
-            Console.WriteLine("\n===== Local Variables =====");
+            Console.WriteLine("\n Local Variables");
             Console.WriteLine("StudentName: " + studentName);
             Console.WriteLine("StudentId: " + studentId);
             Console.WriteLine("StudentRollno: " + studentRollno);
